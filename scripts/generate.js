@@ -3,10 +3,9 @@ const fs = require('fs'),
       mkdirp = require('mkdirp'),
       colorConvert = require('color-convert');
 
-function getPackageJson(version, name) {
+function getPackageJson(name) {
   return `{
   "name": "@swatch/${name}",
-  "version": "1.0.0",
   "description": "JS package for '${name}' color",
   "main": "index.js",
   "private": false,
@@ -71,11 +70,65 @@ function getStringVersionTemplate (name) {
   return `module.exports = ${JSON.stringify(generated, null, 2)}\n`
 }
 
+function getReadme (name) {
+return `## Various exports of the ${name} color
+
+This package contains already statically computed variants of the ${name} color.
+
+Usage:
+\`\`\`js
+const {rgb, hex} = require('@swatches/${name}');
+
+// Use \`rgb\`, \`hex\` to show ${name} in your application.
+\`\`\`
+
+In the browser:
+\`\`\`js
+const {hex} = require('@swatch/${name}/string');
+
+document.body.style.backgroundColor = hex;
+\`\`\`
+
+## Supported formats
+
+
+List of all supported color formats.
+
+### As raw values
+
+Exported as properties when importing \`@swatches/${name}\`.
+
+- \`hsl\`
+- \`hsv\`
+- \`hwb\`
+- \`cmyk\`
+- \`xyz\`
+- \`lab\`
+- \`lch\`
+- \`hex\`
+- \`keyword\`
+- \`ansi16\`
+- \`ansi256\`
+- \`hcg\`
+- \`apple\`
+- \`gray\`
+
+### As string values
+
+Exported as properties when importing \`@swatches/${name}/string\`.
+
+- \`rgb\`
+- \`hsl\`
+- \`hex\`
+`
+}
+
 
 Object.keys(colors).forEach((name) => {
   const dir = `${__dirname}/../packages/${name}`;
   mkdirp.sync(dir);
-  fs.writeFileSync(`${dir}/package.json`, getPackageJson('1.0.0', name));
+  fs.writeFileSync(`${dir}/package.json`, getPackageJson(name));
   fs.writeFileSync(`${dir}/index.js`, getScriptTemplate(name));
   fs.writeFileSync(`${dir}/string.js`, getStringVersionTemplate(name));
+  fs.writeFileSync(`${dir}/Readme.md`, getReadme(name));
 });

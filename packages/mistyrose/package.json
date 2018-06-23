@@ -1,6 +1,5 @@
 {
   "name": "@swatch/mistyrose",
-  "version": "1.0.0",
   "description": "JS package for 'mistyrose' color",
   "main": "index.js",
   "private": false,
@@ -21,5 +20,6 @@
   },
   "homepage": "https://github.com/jutaz/js-swatches/tree/master/packages/mistyrose",
   "author": "Justas Brazauskas",
-  "license": "ISC"
+  "license": "ISC",
+  "version": "1.1.0"
 }

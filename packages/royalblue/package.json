@@ -1,6 +1,5 @@
 {
   "name": "@swatch/royalblue",
-  "version": "1.0.0",
   "description": "JS package for 'royalblue' color",
   "main": "index.js",
   "private": false,
@@ -21,5 +20,6 @@
   },
   "homepage": "https://github.com/jutaz/js-swatches/tree/master/packages/royalblue",
   "author": "Justas Brazauskas",
-  "license": "ISC"
+  "license": "ISC",
+  "version": "1.1.0"
 }
