@@ -20,12 +20,12 @@ function getPackageJson(version, name) {
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jutaz/node-swatch-library.git"
+    "url": "git://github.com/jutaz/js-swatches.git"
   },
   "bugs": {
-    "url": "https://github.com/jutaz/node-swatch-library/issues"
+    "url": "https://github.com/jutaz/js-swatches/issues"
   },
-  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/${name}",
+  "homepage": "https://github.com/jutaz/js-swatches/tree/master/packages/${name}",
   "author": "Justas Brazauskas",
   "license": "ISC"
 }
