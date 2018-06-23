@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/lime",
+  "version": "1.0.0",
+  "description": "JS package for 'lime' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "lime"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/lime",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

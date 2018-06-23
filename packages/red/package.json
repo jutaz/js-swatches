@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/red",
+  "version": "1.0.0",
+  "description": "JS package for 'red' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "red"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/red",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

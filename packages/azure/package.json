@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/azure",
+  "version": "1.0.0",
+  "description": "JS package for 'azure' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "azure"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/azure",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

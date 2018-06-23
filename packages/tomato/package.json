@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/tomato",
+  "version": "1.0.0",
+  "description": "JS package for 'tomato' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "tomato"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/tomato",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

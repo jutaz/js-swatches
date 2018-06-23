@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/darkgray",
+  "version": "1.0.0",
+  "description": "JS package for 'darkgray' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "darkgray"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/darkgray",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

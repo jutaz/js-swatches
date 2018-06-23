@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/gold",
+  "version": "1.0.0",
+  "description": "JS package for 'gold' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "gold"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/gold",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

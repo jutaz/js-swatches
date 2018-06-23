@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/lightgoldenrodyellow",
+  "version": "1.0.0",
+  "description": "JS package for 'lightgoldenrodyellow' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "lightgoldenrodyellow"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/lightgoldenrodyellow",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/bisque",
+  "version": "1.0.0",
+  "description": "JS package for 'bisque' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "bisque"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/bisque",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/violet",
+  "version": "1.0.0",
+  "description": "JS package for 'violet' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "violet"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/violet",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

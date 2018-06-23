@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/linen",
+  "version": "1.0.0",
+  "description": "JS package for 'linen' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "linen"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/linen",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}

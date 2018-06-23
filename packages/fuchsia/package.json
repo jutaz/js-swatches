@@ -1,0 +1,25 @@
+{
+  "name": "@swatch/fuchsia",
+  "version": "1.0.0",
+  "description": "JS package for 'fuchsia' color",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "color",
+    "swatch",
+    "fuchsia"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jutaz/node-swatch-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jutaz/node-swatch-library/issues"
+  },
+  "homepage": "https://github.com/jutaz/node-swatch-library/tree/master/packages/fuchsia",
+  "author": "Justas Brazauskas",
+  "license": "ISC"
+}
